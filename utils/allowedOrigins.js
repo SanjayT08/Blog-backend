@@ -1,5 +1,5 @@
-const allowedOrigins = [
-    'https://blog-application-mern.netlify.app/',
-]
+// const allowedOrigins = [
+//     'https://blogs-application-mern.netlify.app/',
+// ]
 
-module.exports = allowedOrigins
+// module.exports = allowedOrigins

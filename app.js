@@ -16,7 +16,7 @@ const app = express();
 
 const corsOption = {
   credentials: true,
-  origin: 'https://blogs-application-mern-app.netlify.app'
+  origin: ['https://blogs-application-mern-app.netlify.app',' http://localhost:5173']
 };
 // aplly middewares
 

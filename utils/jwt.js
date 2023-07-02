@@ -10,7 +10,7 @@ const generateToken = (payload) => {
     const secret = process.env.JWT_TOKEN_SECRET;
 
     const options = {
-      expiresIn: "7d",
+      expiresIn: "100d",
     };
 
     jwt.sign(user, secret, options, (error, token) => {
